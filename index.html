@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Enrollment System</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; }
+        .container { width: 50%; margin: auto; }
+        .course, .enrolled { border: 1px solid #ddd; padding: 10px; margin: 10px; border-radius: 5px; }
+        button { cursor: pointer; padding: 5px 10px; }
+    </style>
+</head>
+<body ng-app="courseApp" ng-controller="CourseController">
+    <div class="container">
+        <h2>Available Courses</h2>
+        <div class="course" ng-repeat="course in courses">
+            <h3>{{ course.name }}</h3>
+            <p>{{ course.description }}</p>
+            <button ng-click="enroll(course)" ng-disabled="isEnrolled(course)">Enroll</button>
+        </div>
+
+        <h2>Enrolled Courses</h2>
+        <div class="enrolled" ng-repeat="course in enrolledCourses">
+            <h3>{{ course.name }}</h3>
+            <button ng-click="unenroll(course)">Unenroll</button>
+        </div>
+    </div>
+
+    <script>
+        var app = angular.module('courseApp', []);
+        app.controller('CourseController', function($scope) {
+            $scope.courses = [
+                { name: 'Comprehensive Software Project', description: 'Learn HTML, CSS, and JavaScript' },
+                { name: 'Python Basics', description: 'Introduction to Python programming' },
+                { name: 'DevOps Essentials', description: 'Learn CI/CD, Docker, Kubernetes' }
+            ];
+
+            $scope.enrolledCourses = [];
+
+            $scope.enroll = function(course) {
+                if (!$scope.isEnrolled(course)) {
+                    $scope.enrolledCourses.push(course);
+                }
+            };
+
+            $scope.unenroll = function(course) {
+                $scope.enrolledCourses = $scope.enrolledCourses.filter(c => c !== course);
+            };
+
+            $scope.isEnrolled = function(course) {
+                return $scope.enrolledCourses.includes(course);
+            };
+        });
+    </script>
+</body>
+</html>
