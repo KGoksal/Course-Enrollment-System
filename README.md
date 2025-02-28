@@ -24,6 +24,7 @@ The application consists of a single HTML file that includes:
 - AngularJS JavaScript code embedded in the `<script>` tag
 
 ## How It Works
+<img width="896" alt="Screenshot 2025-02-28 at 4 11 01 PM" src="https://github.com/user-attachments/assets/ecd5bcaf-fbed-41c4-bd51-e224231a42ac" />
 
 The application is built using the AngularJS framework with the following components:
 
@@ -39,6 +40,7 @@ The application is built using the AngularJS framework with the following compon
    - `enroll(course)`: Adds a course to the enrolled courses list
    - `unenroll(course)`: Removes a course from the enrolled courses list
    - `isEnrolled(course)`: Checks if a user is already enrolled in a course
+<img width="876" alt="Screenshot 2025-02-28 at 4 11 12 PM" src="https://github.com/user-attachments/assets/5d3c029e-bf2a-4561-9592-4ab0a223a879" />
 
 ## Usage
 
