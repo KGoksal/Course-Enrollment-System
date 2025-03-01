@@ -5,7 +5,7 @@ A simple web application that allows users to browse available courses and manag
 ## Features
 
 - View a list of available courses
-- Enroll in courses
+- Enroll in courses 
 - View enrolled courses
 - Unenroll from courses
 
