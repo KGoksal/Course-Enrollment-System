@@ -2,14 +2,14 @@
 
 A simple web application that allows users to browse available courses and manage their enrollments.
 
-## Features
+## Features 
 
 - View a list of available courses
 - Enroll in courses 
 - View enrolled courses
 - Unenroll from courses
 
-## Technologies Used
+## Technologies Used 
 
 - HTML5
 - CSS3
