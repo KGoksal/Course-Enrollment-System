@@ -15,10 +15,10 @@
 <body ng-app="courseApp" ng-controller="CourseController">
     <div class="container">
         <h2>Available Courses</h2>
-        <div class="course" ng-repeat="course in courses">
-            <h3>{{ course.name }}</h3>
-            <p>{{ course.description }}</p>
-            <button ng-click="enroll(course)" ng-disabled="isEnrolled(course)">Enroll</button>
+        <div class="course" ng-repeat="course in courses"> 
+            <h3>{{ course.name }}</h3> 
+            <p>{{ course.description }}</p> 
+            <button ng-click="enroll(course)" ng-disabled="isEnrolled(course)">Enroll</button> 
         </div>
 
         <h2>Enrolled Courses</h2>
