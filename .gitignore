@@ -1,0 +1,102 @@
+# Angular specific files
+/.angular
+/courses-app/node_modules
+/courses-app/dist
+/courses-app/tmp
+/courses-app/.out
+/courses-app/.next
+/courses-app/.sass-cache
+/courses-app/connect.lock
+/courses-app/coverage
+/courses-app/libpeerconnection.log
+/courses-app/npm-debug.log
+/courses-app/yarn-error.log
+/courses-app/testem.log
+/courses-app/.env
+/courses-app/.env.local
+/courses-app/.env.*.local
+/courses-app/.vscode
+/courses-app/.idea
+/courses-app/.DS_Store
+/courses-app/Thumbs.db
+
+# Spring Boot specific files
+/target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+/.mvn
+/mvnw
+/mvnw.cmd
+HELP.md
+*.class
+*.log
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+hs_err_pid*
+replay_pid*
+
+# IDE specific files
+.idea/
+*.iws
+*.iml
+*.ipr
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+.env.local
+.env.*.local
+application-*.properties
+!application.properties
+
+# Database files
+*.db
+*.sqlite
+*.h2.db
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Testing
+/coverage
+/test-results
+/cypress/videos
+/cypress/screenshots
+
+# System Files
+.DS_Store
+Thumbs.db
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
