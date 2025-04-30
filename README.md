@@ -139,9 +139,3 @@ ng build --configuration production
 3. Commit your changes
 4. Push to the branch
 5. Create a Pull Request
-
-## 13. License
-[Specify your license here]
-
-## 14. Contact
-[Add contact information] 
