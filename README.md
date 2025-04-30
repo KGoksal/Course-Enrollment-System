@@ -22,9 +22,9 @@ The Courses Management System is a web application built with Angular 19 that al
 courses-app/
 ├── src/
 │   ├── app/
-│   │   ├── courses/           # Courses feature module
-│   │   │   ├── course.service.ts  # Course data service
-│   │   │   ├── app.component.ts   # Root component
+│   │   ├── courses/               # Courses feature module
+│   │   │   ├── course.service.ts  # Course data service 
+│   │   │   ├── app.component.ts   # Root component 
 │   │   │   ├── app.config.ts      # Application configuration
 │   │   │   └── app.routes.ts      # Routing configuration
 │   │   └── ...
