@@ -40,12 +40,12 @@
             $scope.enrolledCourses = [];
 
             $scope.enroll = function(course) {  
-                if (!$scope.isEnrolled(course)) { 
-                    $scope.enrolledCourses.push(course);
+                if (!$scope.isEnrolled(course)) {  
+                    $scope.enrolledCourses.push(course); 
                 }
             };
 
-            $scope.unenroll = function(course) {
+            $scope.unenroll = function(course) { 
                 $scope.enrolledCourses = $scope.enrolledCourses.filter(c => c !== course); 
             };
 
