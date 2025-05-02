@@ -20,9 +20,9 @@ graph LR
 2. **Backend (Spring Boot)**
    - Handles API requests
    - Manages database operations
-   - Provides RESTful endpoints
+   - Provides RESTful endpoints 
 
-3. **Database (PostgreSQL)**
+3. **Database (PostgreSQL)** 
    - Stores course information
    - Schema includes courses table with:
      - id (SERIAL PRIMARY KEY)
