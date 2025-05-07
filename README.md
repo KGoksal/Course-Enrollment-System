@@ -47,8 +47,8 @@ The application is built using the AngularJS framework with the following compon
 1. Open the HTML file in a web browser
 2. Browse the list of available courses
 3. Click "Enroll" to add a course to your enrolled courses
-4. View your enrolled courses in the "Enrolled Courses" section
-5. Click "Unenroll" to remove a course from your enrolled courses
+4. View your enrolled courses in the "Enrolled Courses" section 
+5. Click "Unenroll" to remove a course from your enrolled courses 
 
 ## Future Improvements
 
