@@ -125,10 +125,3 @@ The application can be built for production using:
 ```bash
 ng build --configuration production
 ```
-
-## 11. Future Enhancements
-- User authentication and authorization
-- Course enrollment functionality
-- Course search and filtering
-- Admin dashboard for course management
-- Real-time updates using WebSocket
