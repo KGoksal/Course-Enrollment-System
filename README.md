@@ -10,8 +10,7 @@ A simple web application that allows users to browse available courses and manag
 - Unenroll from courses   
 
 ## Technologies Used 
-
-- HTML5
+- HTML5 
 - CSS3
 - AngularJS 1.8.2
 
